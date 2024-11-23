@@ -1,8 +1,11 @@
 {
+  "homepage": "https://mironhasen.github.io/tailwind-project/",
   "name": "tailwind-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite"
   },
   "keywords": [],
